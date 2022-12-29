@@ -2,5 +2,5 @@ openpyxl
 streamlit==1.14.0
 transformers
 tensorflow
-pytorch
+torch
 protobuf==3.19.6
