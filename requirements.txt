@@ -3,3 +3,4 @@ streamlit==1.14.0
 transformers
 tensorflow
 pytorch
+protobuf==3.19.6
