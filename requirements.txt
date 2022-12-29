@@ -1,5 +1,5 @@
 openpyxl
-streamlit==1.14.0
+streamlit==1.13
 transformers
 tensorflow
 torch
