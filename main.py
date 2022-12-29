@@ -13,8 +13,8 @@ def load_tokenizer():
     return tokenizer
 
 
-model = AutoModelForSeq2SeqLM.from_pretrained('google/pegasus-xsum', cache_dir="cache")
-tokenizer = AutoTokenizer.from_pretrained('google/pegasus-xsum')
+model = load_model()
+tokenizer = load_tokenizer()
 
 uploaded_file = st.file_uploader("Choose a file", type=[".xlsx", "xls"])
 if uploaded_file:
